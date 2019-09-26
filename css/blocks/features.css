@@ -1,0 +1,152 @@
+.features {
+    margin-top: 54px;
+    padding-top: 66px;
+    padding-bottom: 98px;
+    background-color: #131415;
+    min-height: 570px;
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+
+.features__title {
+    margin-left: 356px;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 1.47px;
+}
+
+.features__cards {
+    width: 729px;
+    margin-left: 187px;
+    margin-top: 63px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.features__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__card-icon {
+    width: 68px;
+    flex-basis: 68px;
+    border-radius: 34px;
+    background-color: #f89513;
+}
+
+.features__card-icon--unique {
+    background-image: url(/img/icons/flower.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features__card-icon--trainer {
+    background-image: url(/img/icons/painter-palette.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.feature__card-icon--premium {
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    background-color: #f89513;
+    background-image: url(/img/icons/mark-as-favorite-star.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features__card-title {
+    margin-top: 38px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+}
+
+.features__card-desc {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.features__card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 98px;
+    line-height: 30px; 
+}
+
+.features__card-list-item {
+    list-style: disc;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.features--aside {
+    width: 100%;
+    border: 1px solid #000;
+    margin-top: 15px;
+    padding-top: 23px;
+    padding-bottom: 27px;
+    min-height: 286px;
+    background-color: #fff;
+}
+
+.features--aside .features__title {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.features--aside .features__card-title {
+    margin-top: 26px;
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+}
+
+.features--aside  .features__card-desc {
+    margin-top: 12px;
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.features--aside .features__card-list {
+    margin-top: 5px;
+}
+
+.features--aside .features__card-list-item {
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+
+}

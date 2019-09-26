@@ -1,0 +1,155 @@
+.addcomment {
+    margin-top: 61px;
+    width: 100%;
+}
+
+
+
+.form {
+    width: 88.2%;
+    min-height: 427px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    padding: 43px 97px;
+}
+  
+.form__title {
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 49px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+  
+.form__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+  
+.form__row:last-child {
+    margin-bottom: 0;
+}
+.form__block-title {
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+  
+.form__block {
+    margin-right: 23px;
+    flex: 1;
+}
+  
+.form__block:last-child {
+    margin-right: 0;
+}
+  
+.form__input {
+    height: 45px;
+    padding: 11px 15px 9px;
+    background: #fff;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid transparent;
+    opacity: 0.5;
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+}
+  
+.form__input:focus {
+    border-color: #f89513;
+    opacity: 1;
+}
+  
+.form__input--textarea {
+    padding: 8px;
+    resize: vertical;
+    height: 90px;
+}
+
+.form__button {
+    display: flex;
+    background-color: #1c1f1d;
+    border:0;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-left: 21px;
+    padding-right: 21px;
+    height: 45px;
+}
+
+.form__button-submit {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.form__button:hover {
+    background-color: #f89513;
+}
+
+.radio__labels {
+    display: inline-flex;
+}
+
+.radio__label {
+    display: inline-flex;
+    margin-right: 21px;
+}
+
+.radio__label:last-child {
+    margin-right: 0;
+}
+
+.form__radio-input {
+    display: none;
+}
+
+.form__radio-input-text {
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form__radio-input-visible {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #c9c9c9;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #ededed 0%, #ffffff 100%);
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__radio-input:checked ~ .form__radio-input-visible {
+    border: 1px solid #f89513;
+}
+
+.form__radio-input:checked ~ .form__radio-input-visible:before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #f89513;
+}
+
+.form__radio-input:checked ~ .form__radio-input-text {
+    color: #f89513;
+}

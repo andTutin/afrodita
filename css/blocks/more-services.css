@@ -1,0 +1,33 @@
+.more-services {
+    width: 100%;
+    margin-top: 74px;
+    background-color: #131415;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 54px;
+    background-image: url(/img/pattern.png);
+    background-size: cover;
+}
+
+
+.more-services__text {
+    width: 90%;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+ }
+
+ .more-services__text p {
+     margin: 0;
+ }
+
+ .we-wait {
+    font-weight: 700;
+    color: #f89513;
+    text-decoration: none;
+ }

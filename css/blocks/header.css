@@ -1,0 +1,15 @@
+.header {
+    background-color: #131415;
+}
+
+
+.header--margin-bottom {
+    margin-bottom: 41px;
+}
+.header__container {
+    min-height: 77px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

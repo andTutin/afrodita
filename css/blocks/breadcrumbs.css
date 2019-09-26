@@ -1,0 +1,32 @@
+.breadcrumbs {
+    display: flex;
+    justify-content: start;
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.breadcrumbs__list {
+    display: inline-flex;
+}
+
+.breadcrumbs__link {
+    color: #f89513;
+    text-decoration: underline;
+}
+
+.breadcrumbs__link--active {
+    text-decoration: none;
+    color: #221f1f;
+}
+
+.breadcrumbs__item:after {
+    content: "/ ";
+}
+  
+.breadcrumbs__item:last-child:after {
+    display: none;
+}

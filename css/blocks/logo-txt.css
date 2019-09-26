@@ -1,0 +1,9 @@
+.logo-txt {
+    color: #f89513;
+    font-family: "Gora Free";
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    text-decoration: none;
+    flex-basis: 159px;
+}

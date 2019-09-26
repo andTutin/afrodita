@@ -1,0 +1,12 @@
+.footer {
+    margin-top: 49px;
+    background-color: #131415;
+}
+
+.footer__container {
+    min-height: 77px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

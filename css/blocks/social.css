@@ -1,0 +1,106 @@
+.social {
+    font-style: normal;
+    height: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social__title {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.social__list {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+}
+
+.social__list-item {
+    border-radius: 10px;
+    background-color: #d0d0d0;
+    margin-right: 10px;
+}
+
+.social__list-item-link {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.social__list-item:last-child {
+    margin-right: 0;
+}
+
+.vk {
+    background-image: url(/img/icons/vk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    background-image: url(/img/icons/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fb {
+    background-image: url(/img/icons/fb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.google {
+    background-image: url(/img/icons/google.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mail {
+    background-image: url(/img/icons/mail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social__list-item:hover {
+    background-color: #f89513;
+    cursor: pointer;
+}
+
+.loftschool {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.social--aside {
+    margin-top: 47px;
+    width: 97.2%;
+    align-self: flex-end;
+}
+
+.social--aside .social__title {
+
+    color: #221f1f;
+    text-transform: initial;
+    letter-spacing: initial;
+    text-align: center;
+}
+
+.social--aside .social__list {
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.social--aside .social__list-item {
+    background-color: #fff;
+}
+
+.social--aside .social__list-item:hover {
+    background-color: #f89513;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.banner {
+    margin-left: 13px;
+}
+
+.banner__image {
+    max-width: 100%;
+    display: block;
+}

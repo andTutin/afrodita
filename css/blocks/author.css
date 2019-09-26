@@ -1,0 +1,19 @@
+.author {
+    width: 250px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.loftschool {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    text-decoration: underline;
+    }
+
+.author__name {
+    font-family: 'Open Sans';
+    font-weight: 700;
+}

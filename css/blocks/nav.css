@@ -16,22 +16,6 @@
     justify-content: space-between;
 }
 
-
-/*
-.menu__item:first-child {
-    margin-right: 33px;
-}
-
-
-.menu__item:nth-child(2) {
-    margin-right: 24px;
-}
-
-.menu__item:last-child {
-    margin-right: 0;
-}
-*/
-
 .menu__link {
     display: inline-flex;
     align-items: center;
@@ -53,32 +37,32 @@
 
 .menu__link--main:before {
     width: 19px; height: 14px; 
-    background: url(/img/icons/sprite.png) -295px -10px;
+    background: url(../img/icons/sprite.png) -295px -10px;
 }
   
 .menu__link--main-active:before, .menu__link--main:hover:before {
     width: 19px; height: 14px; 
-    background: url(/img/icons/sprite.png) -256px -10px;
+    background: url(../img/icons/sprite.png) -256px -10px;
 }
 
 .menu__link--comments:before {
     width: 20px; height: 18px;
-    background: url(/img/icons/sprite.png) -412px -10px;
+    background: url(../img/icons/sprite.png) -412px -10px;
 }
   
 .menu__link--comments-active:before, .menu__link--comments:hover:before {
     width: 20px; height: 18px;
-    background: url(/img/icons/sprite.png) -217px -11px;
+    background: url(../img/icons/sprite.png) -217px -11px;
 }
 
 .menu__link--services:before {
     width: 19px; height: 14px;
-    background: url(/img/icons/sprite.png) -373px -10px;
+    background: url(../img/icons/sprite.png) -373px -10px;
 }
   
 .menu__link--services-active:before, .menu__link--services:hover:before {
     width: 19px; height: 14px;
-    background: url(/img/icons/sprite.png) -334px -10px;
+    background: url(../img/icons/sprite.png) -334px -10px;
 }
 
 

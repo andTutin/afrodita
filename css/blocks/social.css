@@ -37,31 +37,31 @@
 }
 
 .vk {
-    background-image: url(../img/icons/vk.png);
+    background-image: url(../../img/icons/vk.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .twitter {
-    background-image: url(../img/icons/twitter.png);
+    background-image: url(../../img/icons/twitter.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .fb {
-    background-image: url(../img/icons/fb.png);
+    background-image: url(../../img/icons/fb.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .google {
-    background-image: url(../img/icons/google.png);
+    background-image: url(../../img/icons/google.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .mail {
-    background-image: url(../img/icons/mail.png);
+    background-image: url(../../img/icons/mail.png);
     background-position: center;
     background-repeat: no-repeat;
 }
